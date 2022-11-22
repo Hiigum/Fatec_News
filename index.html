@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/CSS/style.css">
+    <script src="/assets/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/assets/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/node_modules/jquery/dist/jquery.min.js"></script>
+
+<body>
+    <main>
+        <header class="p-3 mb-3 border-bottom">
+            <div class="container">
+                <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                    <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
+                        <img src="/assets/IMG/logo_F1.png" alt="" class="tamanho--logo">
+                    </a>
+
+                    <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                        <li><a href="#" class="nav-link px-2 link-secondary">Home</a></li>
+                        <li><a href="#" class="nav-link px-2 link-dark">Notícias</a></li>
+                        <li><a href="#" class="nav-link px-2 link-dark">Newsletter</a></li>
+                        <li><a href="#" class="nav-link px-2 link-dark">FAQ</a></li>
+                        <li><a href="#" class="nav-link px-2 link-dark">Sobre nós</a></li>
+                    </ul>
+
+                    <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+                        <input type="search" class="form-control" placeholder="Pesquise aqui..." aria-label="Pesquisa">
+                    </form>
+
+                    <div class="dropdown text-end">
+                        <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="/assets/IMG/logo_F1.png" alt="mdo" width="32" height="32" class="rounded-circle">
+                        </a>
+                        <ul class="dropdown-menu text-small">
+                            <li><a class="dropdown-item" href="#">Adicionar post</a></li>
+                            <li><a class="dropdown-item" href="#">Configurações</a></li>
+                            <li><a class="dropdown-item" href="#">Perfil</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Sair</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/assets/IMG/171-noticia.webp" alt="" width="100%" height="100%">
+                    <rect width="100%" height="100%" fill="#777" />
+
+                    <div class="container">
+                        <div class="carousel-caption text-start">
+                            <h1>171, O MAIOR "171" DA HISTÓRIA?</h1>
+                            <p>Entenda o caso do que envolve o jogo!</p>
+                            <p><a class="btn btn-lg btn-primary" href="#">Clique e confira!</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/assets/IMG/rtx-4090-noticia.webp" alt="" width="100%" height="100%">
+                        <rect width="100%" height="100%" fill="#777" />
+                    </svg>
+
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>RTX 4080, conheça o monstro</h1>
+                            <p>A nova placa da família 40 series da NVIDIA</p>
+                            <p><a class="btn btn-lg btn-primary" href="#">Clique e veja mais</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/assets/IMG/fallguys-noticia.jpg" alt="" width="100%" height="100%">
+                        <rect width="100%" height="100%" fill="#777" />
+                    </svg>
+
+                    <div class="container">
+                        <div class="carousel-caption text-end">
+                            <h1>Novo crossover em Fall Guys</h1>
+                            <p>Bob Esponja e Skyrim chegam ao Fall Guys!</p>
+                            <p><a class="btn btn-lg btn-primary" href="#">Veja as novidades</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="container">
+            <footer class="py-5">
+                <div class="row">
+                    <div class="col-6 col-md-2 mb-3">
+                        <h5>Section</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Notícias</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Newsletter</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Sobre nós</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-5 offset-md-5 mb-3">
+                        <form>
+                            <h5>Se inscreva no nosso Newsletter para receber notícias</h5>
+                            <p>Notícias toda semana!!!</p>
+                            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                                <label for="newsletter1" class="visually-hidden">Email</label>
+                                <input id="newsletter1" type="text" class="form-control" placeholder="Email">
+                                <button class="btn btn-primary" type="button">Inscrever-se</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                    <p>&copy; 2022 F1 News LTDA. Todos os direitos reservados.</p>
+                    <ul class="list-unstyled d-flex">
+                        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                                    <use xlink:href="#twitter" />
+                                </svg></a></li>
+                        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                                    <use xlink:href="#instagram" />
+                                </svg></a></li>
+                        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                                    <use xlink:href="#facebook" />
+                                </svg></a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </main>
+</body>
+
+</html>
