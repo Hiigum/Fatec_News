@@ -12,3 +12,39 @@
     height: 32rem;
 }
 
+/* form */
+#form-container{
+    background-color:#FFF;
+    border-radius:20px;
+    box-shadow: .5px 10px 15px rgba(0, 0, 0, .3);
+    margin: 100px auto;
+    padding: 50px;
+}
+#form-container h2{
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+#form-container a:hover{
+    color: #6c63ff;
+}
+#form-container form{
+    padding-bottom: 0px;
+}
+#form-container .form-control:focus{
+    box-shadow: none;
+}
+
+/* imagem */
+.row.align-items-center {
+    align-content: center;
+    height: 100%;
+    padding: 50px;
+}
+#link-container{
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+    
+   
